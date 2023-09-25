@@ -9,6 +9,9 @@
     <packaging>jar</packaging>
 
     <properties>
+        <sonar.host.url>http://172.23.123.14:9000/</sonar.host.url> 
+		<sonar.login>admin</sonar.login>
+		<sonar.password>demo123</sonar.password> 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
