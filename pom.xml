@@ -61,7 +61,21 @@
             <version>4.4</version>
         </dependency>
     </dependencies>
-
+    
+    <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Algorithm Releases Nexus Repository</name>
+	      <url>http://172.23.119.149:8081/repository/Algorithm-Release-repo/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Algorithm Snapshot Nexus Repository </name>
+	      <url>http://172.23.119.149:8081/repository/Algorithm-SNAPSHOT-repo/</url>
+	    </snapshotRepository>
+	</distributionManagement>
+    
     <build>
         <plugins>
             <plugin>
